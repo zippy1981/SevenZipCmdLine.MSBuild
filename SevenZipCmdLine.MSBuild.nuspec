@@ -1,16 +1,26 @@
-<?xml version="1.0"?>
-<package>
-  <metadata>
-    <id>SevenZipCmdLine.MSBuild</id>
-    <version>1.0.0.0</version>
-    <authors>zippy1981</authors>
-    <owners>zippy1981</owners>
-    <projectUrl>https://github.com/zippy1981/SevenZipCmdLine.MSBuild</projectUrl>
-    <licenseUrl>https://github.com/zippy1981/SevenZipCmdLine.MSBuild/blob/master/NuGet/license.txt</licenseUrl>
-    <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>MSBuild tasks that use 7z.exe</description>
-    <releaseNotes>Initial Release.</releaseNotes>
-    <language>en-US</language>
-    <copyright>Copyright (c) 2013 Justin Dearing (zippy1981&amp;gmail.com). Copyright (c) 2012 Adam Ralph (adam&amp;adamralph.com)</copyright>
-  </metadata>
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+    <metadata>
+        <id>SevenZipCmdLine.MSBuild</id>
+        <version>1.0.0.1</version>
+        <authors>zippy1981</authors>
+        <owners>zippy1981</owners>
+        <licenseUrl>https://github.com/zippy1981/SevenZipCmdLine.MSBuild/blob/master/NuGet/license.txt</licenseUrl>
+        <projectUrl>https://github.com/zippy1981/SevenZipCmdLine.MSBuild</projectUrl>
+        <iconUrl>http://www.7-zip.org/7ziplogo.png</iconUrl>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>MSBuild tasks that use 7z.exe</description>
+        <releaseNotes>Initial Release.</releaseNotes>
+        <copyright>Copyright (c) 2013 Justin Dearing (zippy1981&amp;gmail.com). Copyright (c) 2012 Adam Ralph (adam&amp;adamralph.com)</copyright>
+        <language>en-US</language>
+    </metadata>
+    <files>
+        <file src="content\SevenZipCmdLine.MSBuild.ContentHook.txt" target="content\SevenZipCmdLine.MSBuild.ContentHook.txt" />
+        <file src="tools\Install.ps1" target="tools\Install.ps1" />
+        <file src="tools\Remove.psm1" target="tools\Remove.psm1" />
+        <file src="tools\SevenZipCmdLine.MSBuild.targets" target="tools\SevenZipCmdLine.MSBuild.targets" />
+        <file src="tools\Uninstall.ps1" target="tools\Uninstall.ps1" />
+        <file src="license.txt" target="license.txt" />
+        <file src="README.md" target="README.md" />
+    </files>
 </package>
